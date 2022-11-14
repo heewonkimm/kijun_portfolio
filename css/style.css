@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+body {
+    color: #333333;
+}
+.clearfix::before, clearfix::after{
+    display: block; content: ''; clear: both;
+}
+
+
+    
+    
+    
+    
+    
+/*레이아웃*/
+#wrap {margin: 0 auto; width: 1200px;}
+#header {width: 100%; height: 100px;}
+#banner {width: 100%; height: 600px; position: relative;}
+#cont {width: 100%; position: relative;}
+#footer {width: 100%; height: 200px; background: #eee; text-align: center; color: #333}
+
+
+
+/*header*/
+.top-header {width: 100%; height: 30px; background: #303474;}
+.top-header > p {text-align: center; color: #fff; font-size: 10px; padding-top: 7px;}
+.nav {width: 100%; height: 70px;}
+.nav ul li {float: left;}
+.nav ul li.logo {float: left; padding-top: 15px; padding-left: 20px; font-size: 25px; font-weight: bold;}
+.nav ul li.menu {float: left; padding-top: 22px; margin-left: 290px; font-size: 17px;}
+.nav ul li.menu a {padding-left: 30px;}
+.nav ul li.menu .color-txt {color:coral;}
+.nav ul li.left-tab {float: right; padding-top: 20px}
+
+
+/*banner1*/
+.slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.slide img {
+    width: 100%;
+    animation-name: slideimg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+.boxxx {width: 1200px; height: 600px;}
+.bannerimg {width: 100%; height: 100%; position: absolute; top: 4.8%; left: 25%;}
+.side-menu {position: absolute; top: 15px; left: 20px; z-index: 800; font-size: 12px; font-weight: 550;}
+.side-menu a:hover {border-bottom: solid 1px #000;}
+
+/*white-banner*/
+#white-banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0; 
+}
+.banner-txt {
+    opacity: 100%;
+    transform: translatey(0);
+    transition: all 0.4s;
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+
+
+
+
+/*세일 알림 애니메이션*/
+#salebanner {width: 100%; height: 350px; background: black; position: relative;}
+#salebanner>div{padding-top: 80px; padding-left: 25px;}
+#salebanner p {color: #fff; font-size: 25px; text-align: left; }
+#salebanner .saletxt01 {position: absolute; bottom: 20px; left: 25px; color: #fff;}
+#salebanner .saletxt02 {position: absolute; bottom: 20px; right: 25px; color: #fff;}
+
+
+
+/*cont*/
+.women-btn {width: 100%; height: 25px; background: #f4f4f4; font-size: 13px; padding-left: 10px; padding-top: 5px; font-weight: 500; border-top: solid 1px #ccc;}
+.cont1 {width: 100%; height: 400px;border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; border-right: solid 1px #ccc;}
+.cont1-01 {float: left; width: 25%; height: 400px; position: relative;}
+
+.subimg {transform: rotate(-90deg); display: none;}
+.subimg ul {position: absolute; left: 620px; top: -320px; height: 900px; padding-left: 50px;}
+.subimg ul li {width: 580px;height: 280px;}
+.subimg ul li img {transform: rotate(90deg);width: 260px;}
+
+
+
+
+
+
+.cont1-02 {float: right; width: 25%; height: 400px; position: relative;}
+.cont1 img {width: 100%; border-left: solid 1px #ccc;}
+.cont1 .effect01 {position: absolute; top: 0; left: 0; display: none;}
+.cont1-01:hover .effect01 {display: block;}
+.cont1-02:hover .effect01 {display: block;}
+
+
+
+
+
+
+
+
+.women-btn2 {width: 100%; height: 25px; background: #f4f4f4; font-size: 13px; padding-left: 10px; padding-top: 5px; font-weight: 500;}
+
+#cont2{
+    width: 1200px;
+    height: 375px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#img_wrap {
+    width: 2100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img_wrap img{
+    width: 300px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.arrow{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    margin-left: 16px;
+    margin-top: -25px;
+    border-top: 1.1px solid #555;
+    border-right: 1.1px solid #555;
+    transform: rotate(225deg);
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.arrow2{
+    margin-right: 16px;
+    transform: rotate(45deg);
+}
+
+#left{left: 0;}
+
+#right{right: 0;}
+
+
+
+
+
+
+
+
+
+
+/*컨텐츠 슬라이드*/
+.banner2 {width: 100%; height: 750px; overflow: hidden;}
+.slidelist01 {position: relative; width: 3600px; height: 50%;}
+.slidelist01 .slideimg01 {float: left; width: 1200px; height: 375px;}
+.slidelist01 .slideimg01 img {width: 100%; display: block;}
+
+.slidelist02 {position: relative; width: 3600px; height: 50%; margin-left: -2400px;}
+.slidelist02 .slideimg02 {float: right; width: 1200px; height: 375px;}
+.slidelist02 .slideimg02 img {width: 100%; display:block;}
+
+
+
+
+
+
+#footer div {
+    padding: 80px;
+}
+
+
+
+
+
+
+@keyframes slideimg {
+    from {
+        margin-top: 0
+    }
+    to {
+        margin-top: -1200px;
+    }
+}
