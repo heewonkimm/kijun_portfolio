@@ -1,6 +1,6 @@
 # KIJUN_PORTFOLIO  
  ## :pencil: 홈페이지 개요
-<img width="80%" src="https://user-images.githubusercontent.com/99087758/201685934-18a6bd7f-a85b-4868-a4e7-e271e7438d24.jpg"/>
+<img width="80%" src="https://user-images.githubusercontent.com/99087758/201689258-716a0d29-1eee-4780-98e4-0cdb0e006277.jpg"/>
 > **프로젝트**: KIJUN 홈페이지 리뉴얼
 > 
 > **기획 및 제작**: 김희원
