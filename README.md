@@ -1,4 +1,4 @@
-# KIJUN_PORTFOLIO  
+# KIJUN_PORTFOLIO(수정중)
  
 ## :pencil: 홈페이지 개요
 <img width="80%" src="https://user-images.githubusercontent.com/99087758/201689258-716a0d29-1eee-4780-98e4-0cdb0e006277.jpg"/>
